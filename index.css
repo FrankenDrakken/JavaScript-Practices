@@ -1,9 +1,57 @@
 body {
-    font-family: 'Courier New', Courier, monospace
+    font-family: 'Courier New', Courier, monospace;
+    background-color:black;
 }
 
 .header {
     display: flex;
     flex-direction: row;
-    background-color: darkblue;
+    background-color: #005f00;
+    gap: 20%;
+    justify-content: center;
+    align-items: center;
+}
+
+.yes-man {
+    width: 33%;
+    height: 33%;
+}
+
+.t-content {
+    margin-top: 50px;
+    height: 40vh;
+}
+
+.t-introduction {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    text-align: center;
+}
+
+.t-text {
+    text-align: center;
+    color: lightgray;
+    font-weight: bold;
+}
+
+.t-content {
+    background-color: #008e00;
+    color: white;
+}
+
+.mid-content {
+    background-color: #00ee00;
+}
+
+.note {
+    color: red;
+}
+
+li {
+    list-style-type: none;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 2;
 }
