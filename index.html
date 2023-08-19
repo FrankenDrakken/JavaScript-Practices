@@ -17,19 +17,27 @@
     <div class="t-content">
         <div class="t-introduction">
             <p class="t-desc">Ever felt like even thought you're completing quests one after the other, there are so many you can't keep track on how many more you need to do to complete the game?</p>
-            <p class="t-desc">Well, with this neat counter, worry no more! We have a list of all quests in order of game progression, unmarqued quests and even a points system for each faction.</p>
+            <p class="t-desc">Well, with this neat counter, worry no more! We have a list of all quests in alphabetical order, unmarqued quests and even a points system for each faction.</p>
             <p class="t-desc">Featuring Mr. New Vegas's radio show.</p>
+        </div>
+    </div>
+    <div class="m-counter-cont">
+        <div class="counter">
+            <p class="c-quests">Completed Quests:<h2 class="actual-counter" id="0001" onclick="count()">0</h2></p>
         </div>
     </div>
     <div class="mid-content">
         <div class="m-container">
-            <p class="note">Note: Unmarked quests will have a * symbol</p>
+            <div class="note">
+                <p>Note: Unmarked quests will have a * symbol</p>
+                <p>To search for an especific quest, press ctrl+.f</p>
+            </div>
             <div class="m-title">
                 <h1 class="m-intro">Main Faction Quests</h1>
             </div>
             <div class="quests">
                 <div class="NCR">
-                    <h2 class="faction"><ol>NCR</ol></h2>
+                    <h2 class="faction">NCR</h2>
                     <li>
                         A Final Plan for Esteban
                         <button class="m-button">Completed?</button>
@@ -164,38 +172,96 @@
                 </div>
                 <div class="Legion">
                     <h2 class="faction">The Legion</h2>
-                    <li>A Trusted Aide</li>
-                    <li>Anywhere I Wander</li>
-                    <li>Arizona Scavenger</li>
-                    <li>Beware the Wrath of Caesar!</li>
-                    <li>Catching at the Cove</li>
-                    <li>Caesar's Favor</li>
-                    <li>Caesar's Hire</li>
-                    <li>Cold, Cold Heart</li>
-                    <li>Eye for an Eye (Legion)</li>
-                    <li>I Hear You Knocking</li>
-                    <li>I Put a Spell on You (Legion)</li>
-                    <li>Laurifer Gladiator</li>
-                    <li>Powder to the People</li>
-                    <li>Saving Sergeant Teddy</li>
-                    <li>The Finger of Suspicion</li>
-                    <li>We Are Legion</li>
-                    <li>Render Unto Caesar</li>
-                    <li>Et Tumor, Brute?</li>
-                    <li>Arizona Killer</li>
-                    <li>Veni, Vidi, Vici</li>
+                    <li class="cor">A Trusted Aide
+                        <button class="m-button">Completed?</button>
+                    </li>
+                    <li>Anywhere I Wander
+                        <button class="m-button">Completed?</button>
+                    </li>
+                    <li>Arizona Scavenger
+                        <button class="m-button">Completed?</button>
+                    </li>
+                    <li>Beware the Wrath of Caesar!
+                        <button class="m-button">Completed?</button>
+                    </li>
+                    <li>Catching at the Cove
+                        <button class="m-button">Completed?</button>
+                    </li>
+                    <li>Caesar's Favor
+                        <button class="m-button">Completed?</button>
+                    </li>
+                    <li>Caesar's Hire
+                        <button class="m-button">Completed?</button>
+                    </li>
+                    <li>Cold, Cold Heart
+                        <button class="m-button">Completed?</button>
+                    </li>
+                    <li>Eye for an Eye (Legion)
+                        <button class="m-button">Completed?</button>
+                    </li>
+                    <li>I Hear You Knocking
+                        <button class="m-button">Completed?</button>
+                    </li>
+                    <li>I Put a Spell on You (Legion)
+                        <button class="m-button">Completed?</button>
+                    </li>
+                    <li>Laurifer Gladiator
+                        <button class="m-button">Completed?</button>
+                    </li>
+                    <li>Powder to the People
+                        <button class="m-button">Completed?</button>
+                    </li>
+                    <li>Saving Sergeant Teddy
+                        <button class="m-button">Completed?</button>
+                    </li>
+                    <li>The Finger of Suspicion
+                        <button class="m-button">Completed?</button>
+                    </li>
+                    <li>We Are Legion
+                        <button class="m-button">Completed?</button>
+                    </li>
+                    <li>Render Unto Caesar
+                        <button class="m-button">Completed?</button>
+                    </li>
+                    <li>Et Tumor, Brute?
+                        <button class="m-button">Completed?</button>
+                    </li>
+                    <li>Arizona Killer
+                        <button class="m-button">Completed?</button>
+                    </li>
+                    <li>Veni, Vidi, Vici
+                        <button class="m-button">Completed?</button>
+                    </li>
                 </div>
             </div>
             <h2 class="faction">Mr. Robert Edwin House</h2>
-            <li>The House Always Wins I</li>
-            <li>The House Always Wins II</li>
-            <li>The House Always Wins III</li>
-            <li>The House Always Wins IV</li>
-            <li>The House Always Wins V</li>
-            <li>The House Always Wins VI</li>
-            <li>The House Always Wins VII</li>
-            <li>The House Always Wins VIII</li>
-            <li>All or Nothing</li>
+            <li>The House Always Wins I
+                <button class="m-button">Completed?</button>
+            </li>
+            <li>The House Always Wins II
+                <button class="m-button">Completed?</button>
+            </li>
+            <li>The House Always Wins III
+                <button class="m-button">Completed?</button>
+            </li>
+            <li>The House Always Wins IV
+                <button class="m-button">Completed?</button>
+            </li>
+            <li>The House Always Wins V
+                <button class="m-button">Completed?</button>
+            </li>
+            <li>The House Always Wins VI
+                <button class="m-button">Completed?</button>
+            </li>
+            <li>The House Always Wins VII
+                <button class="m-button">Completed?</button>
+            </li>
+            <li>The House Always Wins VIII
+                <button class="m-button">Completed?</button>
+            </li>
+            <li>All or Nothing
+                <button class="m-button">Completed?</button>
+            </li>
             <h2 class="faction">Yes Man (that's me!)</h2>
             <li>Wild Card: Ace in the Hole</li>
             <li>Wild Card: Change in Management</li>
