@@ -45,13 +45,45 @@ body {
     background-color: #00ee00;
 }
 
+.faction {
+    color: red;
+}
+
 .note {
     color: red;
 }
 
 li {
+    display: flex;
+    flex-direction: column;
     list-style-type: none;
     font-size: 25px;
     font-weight: 700;
     line-height: 2;
+}
+
+.m-title {
+    display: flex;
+    justify-content: center;
+}
+
+.m-intro {
+    color: red;
+}
+
+.NCR {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Legion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quests {
+    display: flex;
+    justify-content: space-around;
 }
