@@ -124,10 +124,13 @@ body {
 .mid-content {
     background-color: #00ee00;
     border-radius: 8px;
+    margin: 0px 1% 0px 1%;
 }
 
 .faction {
     color: red;
+    display: flex;
+    justify-content: center;
 }
 
 .note {
