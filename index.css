@@ -59,6 +59,12 @@ body {
     margin-top: 20px
 }
 
+.quests {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
 .m-counter-cont {
     background-color:#00ee00;
     height: 20vh;
@@ -148,6 +154,10 @@ li {
     font-size: 20px;
     font-weight: 700;
     line-height: 2;
+    width: 300px;
+    background-color: #00ee00;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .m-button {
@@ -168,19 +178,16 @@ li {
 
 .NCR {
     display: flex;
-    flex-direction: column;
     align-items: center;
+    flex-flow: wrap;
+    justify-content: space-around;
+    background-color: #008e00;
 }
 
 .Legion {
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-
-.quests {
-    display: flex;
-    justify-content: space-around;
 }
 
 .cor {
